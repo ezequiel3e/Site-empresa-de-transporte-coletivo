@@ -1,0 +1,36 @@
+var WaJsVariable = {};
+WaJsVariable.form_post_url="wa_php/comp/{{waId}}/form_post.php";
+WaJsVariable.search_index_filename="wa_js/waSearchIndex_{{lang}}.js";
+var WaTranslator = {};
+var WaIdContext = 10043382;
+WaTranslator.tr = function(key) 
+{ 
+    return (this.messages[key]!=undefined)?this.messages[key]:'*'+key+'*';
+}; 
+WaTranslator.messages={
+"This field is mandatory":"Campo obrigatório",
+"Untitled page":"Untitled page",
+"Recaptcha not validated !":"verificação reCaptcha falhou!",
+"Feature no available in preview":"Feature not available in preview mode",
+"Form:Label my form":"My form",
+"Form:Lastname field":"Sobrenome",
+"%1 result found !":"%1 resultado(s) encontrado(s)",
+"Form:Sample choice value":"Melhor",
+"Form:My choices":"Escolher",
+"No PHP support on Server !":"No PHP support on Server !",
+"Search placeholder":"Pesquisa",
+"Invalid email !":"Invalid email address !",
+"label button Send form":"Enviar",
+"Form:upload - Select file":"Select File(s)",
+"Form successfully sent !":"Form successfully sent !",
+"Form:Firstname field":"Nome",
+"Page under construction":"Página em construção",
+"No email":"Undefined email !",
+};
+
+//Selectors
+var waImageGalleryClassSelector = "wa-image-gallery-tobind";
+var waImageGalleryNoIndicatior = "wa-image-gallery-no-thumbs";
+var waImageGalleryIdLinkSelectorPattern = "wa-gal-link";
+var waCarouselIdLinkSelectorPattern = "wa-compcarousel-link";
+var waCarouselIdSelectorPattern = "wa-compcarousel";

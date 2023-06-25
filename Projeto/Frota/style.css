@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    justify-content:space-between;
+    padding: 10px 16px; 
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-right: 80px;
+}
+
+header ul li{
+font-size: 21px;
+cursor: pointer;
+font-family: Roboto Condensed;
+list-style: none;
+margin-top: 20px;
+}
+
+ img{
+position:absolute;
+margin-left: 50px;
+margin-top: 15px;
+width: 200px;
+cursor: pointer;
+}
+
+header ul li a{
+color: #0000ff;
+text-decoration: none;
+padding: 8px 15px;
+}
+
+/* Estilos gerais da página Contato
+--------------------------------- */
+.container-contato{
+width: 90%;
+height: 680px;
+background-color:#ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contato{
+align-items: center;
+padding-top: 10px;
+height: 350px;
+width: 500px;
+background-color:#ffffff;
+margin-right: 60px;
+display: flex;
+flex-direction: column;
+color:rgb(63, 60, 55);
+border-radius: 9px;
+transition: ease-in 0.3s;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.contato:hover{
+ border-radius: 30px;
+}
+
+.contato h2{
+font-size: 20px;
+padding: 15px;
+color: rgb(59, 56, 52);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contato strong{
+padding: 10px;
+font-size: 14px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.contato span{
+padding: 9px;
+font-size: 17px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-whatsap{
+display: flex;
+width: 100%;
+justify-content: flex-end;  
+margin-left: 12px;
+
+
+ }
+
+.logo-whatsap img{
+width: 30px;
+height: 30px;
+position: absolute;
+margin-right: 460px;
+
+
+}
+
+.logo-whatsap span{
+margin-right: 334px;
+margin-top: 8px;
+margin-bottom: 30px;
+}
+
+.contato .phone{
+width: 100%;
+height: 50px;
+display: flex;
+}
+.contato .phone span{
+margin-left: 40px;
+margin-top: 5px;
+
+}
+
+.contato .phone img{
+width: 25px;
+height: 25px;
+margin-left: 20px;
+margin-bottom: 10px;
+position: absolute;
+border-radius: 10px;
+}
+.phone .email{
+width: 190px;
+height:60px;
+display: flex;
+position: absolute;
+margin-left: 300px;
+margin-bottom: 50px;
+}
+
+.phone .email img{
+ width: 23px;
+ height: 23px;
+
+}
+
+.contato-form{
+width: 600px;
+height: 620px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 10px;
+
+
+}
+
+.contato-form input{
+width: 100%;
+height: 70px;
+outline: none;
+border: 1px solid rgb(151, 140, 140);
+border-radius: 8px;
+}
+
+.contato-form label{
+font-size: 14px;
+color: #383332;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contato-form input[type="date"]{
+font-size: 15px;
+color:#383332;
+
+}
+
+.contato-form ::-webkit-input-placeholder  { color:#57504f;
+
+}
+
+.contato-form textarea{
+border-radius: 10px;
+height: 200px;
+outline: none;
+}
+
+form button{
+padding: 10px 20px;
+border-radius: 7px;
+background-color: #0000ff;
+outline: none;
+border: none;
+color: #d8cac8;
+margin-top: 8px;
+margin-left: 16rem;
+}
+
+form button:hover{
+background-color: rgb(233, 48, 48);
+}
+
+.contato-form select{
+outline: none;
+height: 70px;
+border-radius: 10px;
+}
+
+/* Estilos gerais Mapa contato
+--------------------------------*/
+.mapa-contato {
+width: 100%;
+height: 400px;
+background-color: #b7b8c0;
+margin-top: 20px;
+display: flex;
+padding-left: 66px;
+padding-top: 80px;
+
+}
+
+
+.mapa-cosnosco{
+display: flex;
+flex-direction: column;
+}
+
+.mapa-contato h2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+color:#0000ff;
+padding-bottom: 20px;
+}
+
+.mapa-contato a{
+color: #312a2a;
+font-size: 15px;
+text-decoration: none;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mapa-telefone{
+width:400px;
+height: 60px;
+position: relative;
+
+}
+.mapa-telefone img{
+width: 25px;
+position: absolute;
+margin-left: 2px;
+
+}
+
+.mapa-telefone span{
+margin-left: 30px;
+position: absolute;
+margin-top: 18px;
+color:#312a2a;
+}
+
+.mapa-email{
+width:400px;
+height: 60px;
+position: relative;
+padding-bottom: 20px;
+
+}
+
+.mapa-email img{
+width: 25px;
+position: absolute;
+margin-left: 2px;
+border-radius: 10px;
+}
+
+.mapa-email a{
+position: absolute;
+margin-left: 37px;
+margin-top: 15px;
+}
+
+.container-mapa{
+margin-left: 140px;
+
+}
+
+footer{
+width: 100%;
+height: 70px;
+background-color: #3d3d3d;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer span{
+color: #e0e0e0;
+font-family: 'Lucida Sans';
+font-size: 14px;
+
+}
